@@ -22,6 +22,17 @@ class User extends Authenticatable
     ];
 
     /**
+     * 获取该模型的路由的自定义键名
+     * 该字段需唯一键
+     *
+     * @return string
+     */
+    public function getRouteKeyName()
+    {
+        return 'name';
+    }
+
+    /**
      * The attributes that should be hidden for arrays.
      *
      * @var array

@@ -39,6 +39,15 @@ section.user_info {
   border-radius: 50%;
 }
 
+.avatar_edit {
+  margin: 15px auto;
+  text-align: center;
+  .avatar {
+    float: none;
+    max-width: 100px;
+  }
+}
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
