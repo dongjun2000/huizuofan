@@ -1,5 +1,5 @@
 <li class="media mt-4 mb-4">
-    <a href="{{ route('users.show', $user->id) }}">
+    <a href="{{ route('users.show', $user) }}">
         <img src="{{ $user->avatar() }}" alt="{{ $user->name }}" class="mr-3 avatar">
     </a>
     <div class="media-body">
